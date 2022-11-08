@@ -1,0 +1,34 @@
+{
+    "name": "back-end-di-lam",
+    "version": "1.0.0",
+    "description": "du an nodejs jwt ",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon --exec babel-node src/server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/le-huy-95/back-end-di-lam.git"
+    },
+    "keywords": [
+        "back",
+        "end"
+    ],
+    "author": "huy",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/le-huy-95/back-end-di-lam/issues"
+    },
+    "homepage": "https://github.com/le-huy-95/back-end-di-lam#readme",
+    "dependencies": {
+        "@babel/core": "7.15.5",
+        "@babel/node": "7.15.4",
+        "@babel/preset-env": "7.15.4",
+        "body-parser": "1.19.1",
+        "dotenv": "10.0.0",
+        "ejs": "3.1.6",
+        "express": "4.17.2",
+        "nodemon": "2.0.15"
+    }
+}
